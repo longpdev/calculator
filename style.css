@@ -7,10 +7,12 @@ button{
 .container{
    display: flex;
    justify-content: space-around;
-
-
 }
 
 .numbers{
 
+}
+
+.activate {
+        background-color: red;
 }
