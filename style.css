@@ -6,7 +6,9 @@ button{
 
 .container{
    display: flex;
-   justify-content: space-around;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .numbers{

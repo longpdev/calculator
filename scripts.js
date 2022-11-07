@@ -6,14 +6,20 @@ var currentValue = "";
 function display(){
     
 }
+
+//handle numbers input
 number.addEventListener('click', (e) =>{
     if (e.target.value != null)
     {    
         displayValue = e.target.value;
         currentValue += displayValue;
         result.innerText += displayValue;
+        console.log(currentValue);
     }
 } );
+
+
+console.log(currentValue);
 
 function add(a, b) {
     return a + b;
